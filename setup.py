@@ -11,6 +11,8 @@ setup(
     description="Contains custom functions which are used repeatedly during development",
     url="https://github.com/vishnuprksh/vpk",  # Replace with your package URL
     packages=find_packages(),
+    long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     download_url="https://github.com/vishnuprksh/vpk/archive/refs/tags/0.0.1.tar.gz",
     install_requires=[            # I get to this in a second
         'IPython',
