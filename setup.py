@@ -11,6 +11,13 @@ setup(
     description="Contains custom functions which are used repeatedly during development",
     url="https://github.com/vishnuprksh/vpk",  # Replace with your package URL
     packages=find_packages(),
+    download_url="https://github.com/vishnuprksh/vpk/archive/refs/tags/0.0.1.tar.gz",
+    install_requires=[            # I get to this in a second
+        'IPython',
+        'pandas',
+        'os',
+        'warnings',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",  # Choose your license
