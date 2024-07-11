@@ -17,7 +17,6 @@ setup(
     install_requires=[            # I get to this in a second
         'IPython',
         'pandas',
-        'warnings',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
