@@ -1,6 +1,5 @@
 from IPython import get_ipython
 import pandas as pd
-import warnings
 
 def general_settings():
     '''
@@ -20,11 +19,4 @@ def general_settings():
     print("DataFrame width maximized!")
     print("Autoreloading of functions enabled!")
 
-def test_fn():
-    '''
-    Function to test functionality.
-    '''
-    print("hi")
 
-def ignore_warnings():
-    warnings.filterwarnings("ignore")   
