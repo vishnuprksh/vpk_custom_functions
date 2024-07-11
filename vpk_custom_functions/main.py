@@ -1,6 +1,5 @@
 from IPython import get_ipython
 import pandas as pd
-import os
 import warnings
 
 def general_settings():
