@@ -6,7 +6,7 @@ def general_settings():
     Function to customize settings for IPython environment.
     '''
     # Set the width of dataframe previews to maximum
-    # pd.set_option('display.max_rows', None)
+    pd.set_option('display.max_rows', None)
     pd.set_option('display.max_columns', None)
     pd.set_option('display.float_format', '{:20,.2f}'.format)
     pd.set_option('display.max_colwidth', None)
