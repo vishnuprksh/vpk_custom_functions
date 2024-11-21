@@ -1,5 +1,6 @@
 # custom files
 .pypirc
+.github/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
