@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="vpk_custom_functions",  # Replace with your package name
-    version="0.0.6",  # Initial release version
+    version="0.1.0",  # Initial release version
     author="Vishnu Prakash",
     author_email="vishnucheppanam@gmail.com",
     description="Contains custom functions which are used repeatedly during development",
